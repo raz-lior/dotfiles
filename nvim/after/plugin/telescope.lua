@@ -3,6 +3,7 @@ vim.keymap.set('n', '<A-f>', builtin.find_files, {})
 vim.keymap.set('n', '<A-g>', builtin.live_grep, {})
 vim.keymap.set('n', '<A-b>', builtin.buffers, {})
 vim.keymap.set('n', '<A-h>', builtin.help_tags, {})
+vim.keymap.set('n', '<A-a>', builtin.current_buffer_fuzzy_find, {})
 
 -- color scheme
 --vim.api.nvim_set_hl(0, "TelescopeMatching", { bg = "black" })
