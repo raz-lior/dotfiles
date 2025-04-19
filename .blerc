@@ -1,0 +1,2 @@
+ble-face -s auto_complete             fg=250,bg=240
+ble-face -s filename_directory        underline,fg=#7fbbb3
