@@ -1,9 +1,11 @@
 local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<A-f>', builtin.find_files, {})
-vim.keymap.set('n', '<A-g>', builtin.live_grep, {})
-vim.keymap.set('n', '<A-b>', builtin.buffers, {})
-vim.keymap.set('n', '<A-h>', builtin.help_tags, {})
-vim.keymap.set('n', '<A-a>', builtin.current_buffer_fuzzy_find, {})
+vim.keymap.set('n', 'ff', builtin.find_files, {})
+vim.keymap.set('n', 'fg', builtin.live_grep, {})
+vim.keymap.set('n', 'fb', builtin.buffers, {})
+vim.keymap.set('n', 'fh', builtin.help_tags, {})
+vim.keymap.set('n', 'fcb', builtin.current_buffer_fuzzy_find, {})
+vim.keymap.set('n', 'fgb', builtin.git_branches, {})
+vim.keymap.set('n', 'fgc', builtin.git_commits, {})
 
 -- color scheme
 --vim.api.nvim_set_hl(0, "TelescopeMatching", { bg = "black" })

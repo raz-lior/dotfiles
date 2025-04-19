@@ -28,7 +28,7 @@ vim.keymap.set('v', '<C-y>', '"+y')
 vim.keymap.set('n', '<C-y>', '"+y')
 vim.keymap.set('n', '<C-p>', '"+p')
 
-vim.cmd.colorscheme("gruvbox")
+vim.cmd.colorscheme("everforest")
 --vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
 vim.api.nvim_set_hl(0, "Normal", { bg = "None" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "None" })

@@ -44,10 +44,17 @@ return require('packer').startup(function(use)
     }
   }
 
-  use 'vim-airline/vim-airline'
-  use 'vim-airline/vim-airline-themes'
+  -- use 'vim-airline/vim-airline'
+  -- use 'vim-airline/vim-airline-themes'
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 
+  -- color schemes
   use "EdenEast/nightfox.nvim"
   use "morhetz/gruvbox"
   use "lighthaus-theme/vim-lighthaus"
+  use "sainnhe/everforest"
+
 end)
