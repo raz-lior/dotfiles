@@ -1,0 +1,21 @@
+{
+	"name": "Dark Green Scheme for Shell",
+	"groups": {
+		"user": 				{ "fg": "black",  "bg": "darkgreen", "attrs": [] },
+		"cwd": 					{ "fg": "gray6",  "bg": "gray1", "attrs": [] },
+		"cwd:current_folder": 	{ "fg": "gray9", "bg": "gray1", "attrs": [] },
+		"cwd:divider": 			{ "fg": "gray3", "bg": "gray1", "attrs": [] },
+		"exit_fail": 			{ "fg": "red", "bg": "gray1", "attrs": [] },
+		"branch": 				{ "fg": "gray6", "bg": "gray1", "attrs": [] },
+		"branch_clean": 		{ "fg": "green", "bg": "gray1", "attrs": [] },
+		"branch_dirty": 		{ "fg": "brightred", "bg": "gray1", "attrs": [] },
+		"stash": 				{ "fg": "yellow", "bg": "gray1", "attrs": [] }
+	},
+	"mode_translations": {
+		"vicmd": {
+			"groups": {
+				"mode": { "fg": "gray6", "bg": "gray1", "attrs": [] }
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "Everforest Scheme for Shell",
+	"groups": {
+		"user": 				{ "fg": "black",  "bg": "everforest:statusline1", "attrs": [] },
+		"cwd": 					{ "fg": "everforest:grey0",  "bg": "everforest:grey1", "attrs": [] },
+		"cwd:current_folder": 	{ "fg": "everforest:blue", "bg": "everforest:grey1", "attrs": [] },
+		"cwd:divider": 			{ "fg": "everforest:grey0", "bg": "everforest:grey1", "attrs": [] },
+		"exit_fail": 			{ "fg": "everforest:red", "bg": "gray1", "attrs": [] },
+		"branch": 				{ "fg": "gray6", "bg": "gray1", "attrs": [] },
+		"branch_clean": 		{ "fg": "everforest:green", "bg": "gray1", "attrs": [] },
+		"branch_dirty": 		{ "fg": "everforest:statusline3", "bg": "gray1", "attrs": [] },
+		"stash": 				{ "fg": "everforest:yellow", "bg": "gray1", "attrs": [] }
+	},
+	"mode_translations": {
+		"vicmd": {
+			"groups": {
+				"mode": { "fg": "gray6", "bg": "gray1", "attrs": [] }
+			}
+		}
+	}
+}
